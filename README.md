@@ -10,7 +10,7 @@
   <p align="center">
     An awesome website to play songs!
     <br />target="_blank"
-    <a href="https://code-choudhary.github.io/Assignment-1/" target="_blank">View Demo</a>
+    <a href="https://code-choudhary.github.io/Assignment-1/" >View Demo</a>
     ·
     <a href="https://github.com/Code-CHOUDHARY/Assignment-1/issues" target="_blank">Report Bug</a>
     ·

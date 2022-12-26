@@ -12,8 +12,8 @@
     <br />target="_blank"
     <a href="https://code-choudhary.github.io/Assignment-1/" >View Demo</a>
     ·
-    <a href="https://github.com/Code-CHOUDHARY/Assignment-1/issues" target="_blank">Report Bug</a>
+    <a href="https://github.com/Code-CHOUDHARY/Assignment-1/issues" >Report Bug</a>
     ·
-    <a href="https://github.com/Code-CHOUDHARY/Assignment-1/issues" target="_blank">Request Feature</a>
+    <a href="https://github.com/Code-CHOUDHARY/Assignment-1/issues">Request Feature</a>
   </p>
 </div>

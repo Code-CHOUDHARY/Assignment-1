@@ -8,6 +8,8 @@
 }
 
 /* CUSTOM SCROLLBAR */
+
+
 ::-webkit-scrollbar{
 	width: 10px;
 }
@@ -55,9 +57,6 @@ html{
 	color: white;
 	background-color: black;
 }
-
-
-
 
 
 
@@ -159,13 +158,10 @@ html{
 	background-clip: padding-box;
 }
 
-
-
-
-
-
-
 /* ABOUT */
+#about{
+	
+}
 
 .about-area {
 	height: 100vh;
@@ -319,29 +315,43 @@ html{
 
 
 
-@media (max-width: 1024px) {
+@media (min-width: 768px) {
 	html{
-		font-size: 55%;
+		font-size: 55%;	
+		
 	}
+	.row{
+	padding-top: 179px;}
 	.about-area .about-image > img {
 		width: 50%;
 		padding-left: 4rem;
-		    padding-top: 20rem!important;
+		padding-top: 20rem!important;
 	}
 
 	.footer-area .social-media {
 		padding-top: 41rem;
 	}
+	.about-area .about-title .paragraph > p {
+		max-width: fit-content;
+		padding-right: 2rem;
+		font-size: 2rem;
+	}
+	.paragraph{
+		font-size: 2rem;
+	}
+	nav{
+	font-size:2rem;}
 }
 
 @media (max-width: 768px) {
 
 	html{
 		font-size: 70%;
+		padding-top: 20rem;
 	}
 	.about-area .about-image > img {
 		width: 80%;
-		    padding-top: 20rem!important;
+		    
 	}
 
 	.about-area .about-title h2 > span {
@@ -351,6 +361,7 @@ html{
 	.about-area .about-title .paragraph > p {
 		max-width: fit-content;
 		padding-right: 2rem;
+		
 	}
 
 	.footer-area .para {
@@ -384,6 +395,12 @@ html{
 	.about-area .about-title a > button {
 		margin-top: 2rem;
 	}
+	.paragraph{
+		font-size: 1rem;
+	}
+	nav{
+	font-size:1rem;}
+	
 }
 
 @media (max-width: 450px) {
@@ -416,6 +433,8 @@ html{
 	#icon{
 		width: 40%;
 	}
+	nav{
+	font-size: 1rem;}
 }
 
 @media (max-width: 360px) {
@@ -431,6 +450,7 @@ html{
 		padding-right: 5rem;
 		padding-left: 5rem;
 		max-width: fit-content;
+		font-size:1rem;
 	}
 
 	.about-area .about-title h2 > span {
@@ -448,6 +468,11 @@ html{
 	#icon{
 		width: 30%;
 	}
+	.paragraph {
+		font-size: 1rem;
+	}
+	nav{
+	font-size:1rem;}
 }
 
 @media (max-width: 320px) {
@@ -490,6 +515,8 @@ html{
 	#icon{
 		width: 40%;
 	}
+	nav{
+	font-size:1rem;}
 }
 
 
@@ -498,4 +525,6 @@ html{
 	html{
 		font-size: 40%;
 	}
+	nav{
+	font-size:1rem;}
 }

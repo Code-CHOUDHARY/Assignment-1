@@ -11,15 +11,10 @@
         <meta name="twitter:title" content="Musical Library" />
         <meta name="twitter:description" content="This is a webplayer that plays songs" />
         <meta name="twitter:image" content="./Media/Image/logoicon.jpeg" />
-
-        <meta property='og:title' content='Musical Library' />
-        <meta property='og:type' content="website" />
-        <meta property='og:description' content='This is a webpage which plays Songs' />
-        <meta property="og:image" content='./Media/Image/logoicon.jpeg' />
         <meta name="theme-color" content="#F4C2C2" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="./Media/logohead.jpg" type="image/x-icon">
-    <title id="head">Musical Library</title>
+    <title>Musical Library</title>
 
   
   
@@ -31,7 +26,7 @@
 
 </head>
 
-<body onload="preLoader ()">
+<body class="container" onload="preLoader ()">
 
     <div id="loading"></div>
   <!-- Go to Up button -->
@@ -42,7 +37,7 @@
     <header data-spy="scroll" data-target=".navbar" data-offset="70">
 		<nav
 			class="navbar shadow-lg rounded fixed-top navbar-expand-lg navbar-light bg-light">
-			<a class="navbar-brand display-1" href="#">
+			<a class="navbar-brand" href="#">
 			<img
 				src="https://www.shutterstock.com/image-vector/funky-drawn-cartoon-musical-headphones-260nw-2114094869.jpg" width="40"
 				height="30" class="d-inline-block align-top" alt="">Musical Library</a>
@@ -53,7 +48,7 @@
 			</button>
 
 			<div class="collapse navbar-collapse" id="navbarNav">
-				<ul class="navbar-nav nav-pills nav-stacked mr-auto">
+				<ul class="navbar-nav nav-stacked mr-auto">
 					<li class="nav-item"><a class="nav-link " href="#home">Home</a></li>
 					<li class="nav-item"><a class="nav-link" href="#about">About</a></li>
 					<li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
@@ -65,10 +60,7 @@
 
 
     <!-- HOME PAGE -->
-  
-    
-
-    <section class="container" id="home">
+    <section class="container rounded shadow m-0" id="home">
         <div class="content">
             <div class="left-col">
                <h1 id="mytext"> I <br> Like <br> Me <br> Better </h1>
@@ -90,7 +82,7 @@
   <section class="Songs-button container mb-3" id="songs">
         <div class="container-songs container-fluid">
           <div class="texto">
-          <h2 class="fs-1" id="mytext"> Select The Songs</h2>
+          <h1 class=" text-center p-5"> Select The Songs</h1>
           </div>
   
           <div class="lolbutt container-fluid">
@@ -360,23 +352,22 @@ const mySong = document.getElementById("mySong");
         </div>
 </div>
   </section>
-     <div class="container-fluid">     
+     <div class="container-fluid rounded shadow-lg round bg">     
     <!-- ABOUT SECTION -->
-    <section class="mt-3 container" id="about">
+    <section class="mt-3 container rounded shadow-lg round bg" id="about">
             <div class="row">
-            <div class="about area col-md-6 text-center pt-5"  style="padding-top: 20rem!important;">
-            	                    <h2 class="about-title display-2">
+            <div class="about area col-md-6 text-center pt-5">
+            	    <h2 class="about-title display-2">
                         <span>About Song...</span>
                     </h2>
                     <div class="paragraph container-fluid p-5">
-                        <p class="text-lg-start">
-                            "I Like Me Better" is a song recorded by American singer-songwriter Lauv. It was released on
+                        <p class="text-lg-start paragraph" id="para">
+                           "I Like Me Better" is a song recorded by American singer-songwriter Lauv. It was released on
                             May 19, 2017, and is included on Lauv's compilation album I Met You When I Was 18, which was
                             released on May 31, 2018. It has also been used in an Android Auto app commercial, in the
                             trailer of Netflix's romantic comedy To All the Boys I've Loved Before, and in the fall ball
                             episode of Netflix's comedy series The Expanding Universe of Ashley Garcia.
                         </p>
-                    
                     </div>
                     <a href="./Media/Songs/I Like Me Better - Lauv.mp3" download="İ like me better">
                     
@@ -384,7 +375,7 @@ const mySong = document.getElementById("mySong");
                     </a>
                     </div>
                   <div class="col-md-6 about-image pt-5" >
-						<img class="img-fluid rounded shadow-lg round bg pt-3" src="./Media/Image/about-img.png" alt="About us" class="img-fluid" id="photos">
+						<img class="img-fluid rounded shadow-lg round bg pt-3" src="./Media/Image/about-img.png" alt="About us" id="photos">
 					</div>
                
                 </div>
@@ -392,7 +383,7 @@ const mySong = document.getElementById("mySong");
     </div>
 <div class="container-fluid">
 
-    <footer class="footer-area container-fluid " id="contact">
+    <footer class=" container rounded shadow-lg round bg footer-area container-fluid " id="contact">
         <h1>CONTACT ME ON SOCIAL MEDIA</h1>
      
         <div class="social-media">
